@@ -41,7 +41,7 @@ npm run dev
 ```
 
 ## 🌐 Demo en Vivo
-[Ver Demo](https://tu-usuario.github.io/petfashion)
+[Ver Demo](https://franjavacisco.github.io/pawsome-petcare/)
 
 ## 📝 Próximas Mejoras
 - [x] Implementación de carrito de compras
