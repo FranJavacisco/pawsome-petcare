@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://franjavacisco.github.io/pawsome-petcare",
+  "homepage": "https://franjavacisco.github.io/pawsome-petcare/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
