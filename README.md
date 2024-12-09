@@ -24,12 +24,6 @@ PetFashion es una plataforma moderna de comercio electrónico especializada en m
 - Tailwind CSS
 - Lucide Icons
 
-## 📱 Vista Móvil
-![Mobile View](/screenshots/mobile.png)
-
-## 💻 Vista Desktop
-![Desktop View](/screenshots/desktop.png)
-
 ## 🚀 Instalación
 
 ```bash
@@ -50,7 +44,7 @@ npm run dev
 [Ver Demo](https://tu-usuario.github.io/petfashion)
 
 ## 📝 Próximas Mejoras
-- [ ] Implementación de carrito de compras
+- [x] Implementación de carrito de compras
 - [ ] Sistema de autenticación
 - [ ] Integración de pasarela de pagos
 - [ ] Sistema de reseñas y calificaciones
@@ -68,8 +62,8 @@ Las contribuciones son bienvenidas. Por favor:
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ## 👤 Desarrollador
-- Github: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [Tu Nombre](https://linkedin.com/in/tu-usuario)
+- Github: [FranJavaCisco](https://github.com/FranJavacisco)
+- LinkedIn: [Francisco A. Lopez](https://www.linkedin.com/in/francisco-lopez-cl/)
 
 ## 🙏 Agradecimientos
 - Diseño inspirado en las últimas tendencias de e-commerce
@@ -79,4 +73,3 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ---
 ⭐️ ¡Si te gustó este proyecto, dale una estrella!
 
-¿Necesitas que ajuste o agregue algo más a la documentación?
