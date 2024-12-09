@@ -81,8 +81,8 @@ const SaleCarousel = () => {
                       {/* Contenedor de imagen optimizado */}
                       <div className="relative w-full aspect-square rounded-lg md:rounded-xl overflow-hidden bg-black/20">
                         <img 
-                          src={item.image} 
-                          alt={`Sale item ${index + 1}`}
+                          src={`${import.meta.env.BASE_URL}${product.image}`} 
+                          alt={product.name}
                           className="absolute inset-0 w-full h-full object-contain p-4"
                           loading="lazy"
                         />

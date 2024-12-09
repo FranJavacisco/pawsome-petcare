@@ -82,7 +82,7 @@ const FeaturedProducts = () => {
     <div className="w-64 md:w-80 bg-white/10 backdrop-blur-sm rounded-xl shadow-2xl overflow-hidden group transform transition-all duration-500">
       <div className="relative aspect-square overflow-hidden">
         <img
-          src={product.image}
+          src={`${import.meta.env.BASE_URL}${product.image}`}
           alt={product.name}
           className="w-full h-full object-contain p-4 transform group-hover:scale-105 transition-transform duration-700"
           loading="lazy"

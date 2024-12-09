@@ -6,7 +6,7 @@ const ProductCard = ({ product }) => {
     <div className="w-full max-w-sm bg-white rounded-xl shadow-lg overflow-hidden group">
       <div className="relative aspect-square">
         <img
-          src={product.image}
+          src={`${import.meta.env.BASE_URL}${product.image}`}
           alt={product.name}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />

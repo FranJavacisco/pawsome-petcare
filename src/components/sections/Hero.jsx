@@ -68,8 +68,8 @@ const Hero = () => {
           <div className="relative flex items-center justify-center lg:justify-end">
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-indigo-600/20 to-purple-600/20 rounded-full filter blur-3xl" />
             <img 
-              src="/hero.png"
-              alt="Stylish pet wearing fashion" 
+              src={`${import.meta.env.BASE_URL}${product.image}`}
+              alt={product.name} 
               className="relative w-auto max-h-[60vh] lg:max-h-[80vh] object-contain transform hover:scale-105 transition-transform duration-700"
             />
           </div>
