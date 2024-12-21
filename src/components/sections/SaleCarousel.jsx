@@ -7,7 +7,7 @@ import {
   Truck, 
   Heart 
 } from 'lucide-react';
-import { saleItems } from '../../data/products.js';
+import { saleItems } from '../data/products.js';
 
 const SaleCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
