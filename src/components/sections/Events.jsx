@@ -49,9 +49,9 @@ const Events = () => {
                     loop
                     muted={isMuted}
                     playsInline
-                    poster="images/poster.png"
+                    poster="/poster.png"
                   >
-                    <source src="video/event.mp4" type="video/mp4" />
+                    <source src="/event.mp4" type="video/mp4" />
                   </video>
                 </div>
 
