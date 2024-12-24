@@ -7,7 +7,7 @@ import {
   Truck, 
   Heart 
 } from 'lucide-react';
-import { saleItems } from '../data/products.js';
+import { saleItems } from '../../data/products.js';
 
 const SaleCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -74,15 +74,15 @@ const SaleCarousel = () => {
               className="flex transition-transform duration-500 ease-out"
               style={{ transform: `translateX(-${currentSlide * 100}%)` }}
             >
-              {saleItems.map((item, index) => (
+              {saleItems.map((item) => (
                 <div key={item.id} className="w-full flex-shrink-0 px-2">
                   <div className="bg-white/10 backdrop-blur-md rounded-xl md:rounded-2xl p-4 md:p-6">
                     <div className="grid md:grid-cols-2 gap-4 md:gap-6 items-center">
                       {/* Contenedor de imagen optimizado */}
                       <div className="relative w-full aspect-square rounded-lg md:rounded-xl overflow-hidden bg-black/20">
                         <img 
-                          src={`${import.meta.env.BASE_URL}${product.image}`} 
-                          alt={product.name}
+                          src={`${import.meta.env.BASE_URL}${item.image}`} 
+                          alt={item.name}
                           className="absolute inset-0 w-full h-full object-contain p-4"
                           loading="lazy"
                         />
@@ -100,7 +100,7 @@ const SaleCarousel = () => {
                         <div className="flex items-start justify-between">
                           <div>
                             <h3 className="text-xl md:text-2xl font-bold mb-1 md:mb-2">
-                              {item.name || 'Flash Sale'}
+                              {item.name}
                             </h3>
                             <p className="text-sm md:text-base text-gray-300">
                               Premium Pet Collection
