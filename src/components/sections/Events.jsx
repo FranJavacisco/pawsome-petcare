@@ -27,7 +27,11 @@ const Events = () => {
   };
 
   return (
-    <section className="py-8 md:py-12">
+    <section className="relative overflow-hidden bg-gradient-to-b from-gray-100 to-white py-12 md:py-20">
+      <div className="absolute inset-0">
+        <div className="absolute inset-0 bg-[url('/pattern.svg')] opacity-5" />
+      </div>
+
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -49,9 +53,9 @@ const Events = () => {
                     loop
                     muted={isMuted}
                     playsInline
-                    poster="/poster.png"
+                    poster={`${import.meta.env.BASE_URL}assets/gata.jpg`}
                   >
-                    <source src="/event.mp4" type="video/mp4" />
+                    <source src={`${import.meta.env.BASE_URL}assets/videoevent.mp4`} type="video/mp4" />
                   </video>
                 </div>
 
