@@ -4,7 +4,7 @@ export const featuredProducts = [
     { id: 3, name: 'Rain Coat', price: '$34.99', image: 'assets/ofert3.jpg', tag: 'Trending' },
     { id: 4, name: 'Party Bow Tie', price: '$14.99', image: 'assets/ofert4.jpg', tag: 'Limited' },
     { id: 5, name: 'Party Bow Tie', price: '$14.99', image: 'assets/ofert5.jpg', tag: 'Limited' },
-    { id: 6, name: 'Party Bow Tie', price: '$14.99', image: 'assets/ofert1.jpg', tag: 'Limited' }, // Cambiado a ofert1 ya que ofert6 no existe
+    { id: 6, name: 'Party Bow Tie', price: '$14.99', image: 'assets/ofert6.jpg', tag: 'Limited' },
 ];
 
 export const saleItems = [
